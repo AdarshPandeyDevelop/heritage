@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.b1 img{
+    width: 3.5vw;
+    border-radius: 50%;
+}
+
+.p{
+    color: white;
+    margin-top: -3.2vw;
+    font-size: 2vw;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+
+.navbar{
+    margin-right: 25vw;
+    margin-top: 1vw;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 3vw;
+    font-size: 1.5vw;
+    color: white;
+    transition: all 3s ease-in-out;
+    position: relative;
+}
+
+nav ul li a:hover{
+    top: -0.5vw;
+}
+
+.p1{
+    margin-top: 0.5vw;
+    color: white;
+    font-size: 1.7vw;
+    padding: 2vw;
+    transition: all 0.5s ease-in-out;
+}
+
+.p1:hover{
+    color: black;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    background-image: url('main/king.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+    height: 50vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 4vw;
+    margin-left: 3vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.img:hover{
+    filter: grayscale(0%);
+}
+
+#btns{
+    color: white;
+    background-color: transparent;
+    border: 0.01vw solid white;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    width: 10vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.section{
+    width: 0.01vw;
+    display: block;
+    background-color: white;
+    height: 50vh;
+    margin-top: 4vw;
+}
+
+.pimg{
+    background-image: url('main/Philo.webp');
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+    height: 50vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 4vw;
+    margin-left: 4vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.pimg:hover{
+    filter: grayscale(0%);
+}
+
+#btne{
+    color: white;
+    background-color: transparent;
+    border: 0.01vw solid white;
+    border-radius: 2vw;
+    padding: 1vw;
+    width: 10vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.cards{
+    padding: 1vw;
+    margin-top: 1.5vw;
+    width: 100vw;
+    height: 35vh;
+    margin-bottom: 2vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2{
+    color: black;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+
+.card1{
+    background-image: url('main/alexander.webp');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card2{
+    background-image: url('main/Ramses.jpg');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card3{
+    background-image: url('main/pushyamitra.jpg');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card4{
+    background-image: url('main/socrates.webp');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card5{
+    background-image: url('main/Chankya.jpg');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card6{
+    background-image: url('main/shushutr.jpg');
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    width: 30vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.container{
+    overflow: hidden;
+    white-space: nowrap;
+}
+  
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: inline-block;
+    cursor: pointer;
+    animation: moveRight 10s linear infinite;
+}
+  
+@keyframes moveRight {
+0% {
+  transform: translateX(750%);
+}
+100% {
+  transform: translateX(-850%);
+}
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    nav{
+        padding: 2vw;
+    }
+    
+    .b1 img{
+        width: 5vw;
+    }
+    
+    .p{
+        color: white;
+        margin-top: -5vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+    }
+    
+    .navbar{
+        margin-right: 2vw;
+        margin-top: 0.2vw;
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    nav ul li a{
+        margin-right: 1vw;
+        font-size: 3.5vw;
+        color: white;
+        transition: none;
+        position: relative;
+    }
+    
+    nav ul li a:hover{
+        top: -0.5vw;
+    }
+    
+    .p1{
+        padding: 1.5vw;
+        font-size: 5vw;
+        transition: none;
+        cursor: pointer;
+    }
+    
+    .p1:hover{
+        color: black;
+        background-color: white;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .img{
+        background-image: url('main/king.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 40vw;
+        height: 20vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 10vw;
+        margin-left: 3vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+    }
+    
+    .img:hover{
+        filter: grayscale(0%);
+    }
+    
+    #btns{
+        color: white;
+        background-color: transparent;
+        border: 0.01vw solid white;
+        border-radius: 3vw;
+        padding: 0.5vw;
+        width: 30vw;
+        margin-left: 8vw;
+        margin-bottom: 10vw;
+        font-size: 5vw;
+        cursor: pointer;
+    }
+    
+    .section{
+        width: 0.01vw;
+        display: block;
+        background-color: white;
+        height: 20vh;
+        margin-top: 8vw;
+    }
+    
+    .pimg{
+        background-image: url('main/Philo.webp');
+        background-position: center;
+        background-size: cover;
+        width: 40vw;
+        height: 20vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 10vw;
+        margin-left: 4vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+    }
+    
+    .pimg:hover{
+        filter: grayscale(0%);
+    }
+    
+    #btne{
+        color: white;
+        background-color: transparent;
+        border: 0.01vw solid white;
+        border-radius: 3vw;
+        padding: 0.5vw;
+        width: 30vw;
+        margin-bottom: 8vw;
+        margin-left: 8vw;
+        font-size: 5vw;
+        cursor: pointer;
+    }
+    
+    .cards{
+        padding: 1vw;
+        margin-top: 1.5vw;
+        width: 100%;
+        height: 25vh;
+        margin-bottom: 2vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .p2{
+        color: black;
+        font-size: 5vw;
+        margin-top: 10vw;
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    
+    .card1{
+        background-image: url('main/alexander.webp');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card2{
+        background-image: url('main/Ramses.jpg');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card3{
+        background-image: url('main/pushyamitra.jpg');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card4{
+        background-image: url('main/socrates.webp');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card5{
+        background-image: url('main/Chankya.jpg');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card6{
+        background-image: url('main/shushutr.jpg');
+        margin-top: 1.5vw;
+        margin-left: 1vw;
+        width: 50vw;
+        height: 22vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .containers{
+        overflow: hidden;
+        white-space: nowrap;
+    }
+      
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        display: inline-block;
+        cursor: pointer;
+        animation: moveRight 10s linear infinite;
+    }
+      
+    @keyframes moveRight {
+    0% {
+      transform: translateX(750%);
+    }
+    100% {
+      transform: translateX(-850%);
+    }
+    }    
+}

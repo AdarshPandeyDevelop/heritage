@@ -1,0 +1,1736 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.b1 img{
+    width: 3.5vw;
+    border-radius: 50%;
+}
+
+.p{
+    margin-top: -3.2vw;
+    font-size: 2vw;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+
+.navbar{
+    margin-right: 25vw;
+    margin-top: 1vw;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 3vw;
+    font-size: 1.5vw;
+    color: black;
+    transition: all 3s ease-in-out;
+    position: relative;
+}
+
+nav ul li a:hover{
+    top: -0.5vw;
+}
+
+.p1{
+    padding: 1.5vw;
+    font-size: 1.7vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.p1:hover{
+    background-color: beige;
+}
+
+.cards{
+    padding: 1vw;
+    width: 100vw;
+    height: 38vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2{
+    color: white;
+    font-size: 2vw;
+    margin-top: 5.5vw;
+}
+
+.card1{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M1.jpg');
+    width: 25vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card2{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M2.jpg');
+    width: 25vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card3{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M3.jpg');
+    width: 25vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card4{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M4.jpg');
+    width: 25vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card5{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M5.jpg');
+    width: 25vw;
+    height: 30vh; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.card6{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    background-image: url('main/M6.jpg');
+    width: 25vw;
+    height: 30vh;  
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+}
+
+.container{
+    overflow: hidden;
+    white-space: nowrap;
+}
+  
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: inline-block;
+    cursor: pointer;
+    animation: moveRight 15s linear infinite;
+}
+  
+@keyframes moveRight {
+0% {
+  transform: translateX(280%);
+}
+100% {
+  transform: translateX(-750%);
+}
+}
+
+.p3{
+    font-size: 2vw;
+    font-weight: 900;
+    padding: 1.5vw;
+}
+
+.section{
+    width: 70vw;
+    margin-top: -1.5vw;
+    height: 0.01vw;
+    margin-left: 1.4vw;
+    background-color: black; 
+}
+
+.box2{
+    background-image: url('main/cave.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 5vw;
+    margin-left: 5vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box2:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec1{
+    margin-left: 34vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+    display: block;
+}
+
+.para1{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p5{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p6{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box3{
+    background-image: url('main/pyramids.webp');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box3:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec2{  
+    margin-left: 35vw;
+    margin-top: -15vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para2{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p7 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p8{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p9{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box4{
+    background-image: url('main/forbidden city.webp');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 10vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box4:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec3{
+    margin-top: -15vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para3{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p10 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p11{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p12{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box5{
+    background-image: url('main/kailash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box5:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec4{  
+    margin-left: 35vw;
+    margin-top: -15vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para4{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p13 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p14{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p15{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box6{
+    background-image: url('main/great wall of china.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh;  
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 10vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box6:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec5{
+    margin-top: -20vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para5{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p16 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p17{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p18{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box7{
+    background-image: url('main/petra.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box7:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec6{  
+    margin-left: 35vw;
+    margin-top: -15vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para6{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p19 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p20{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p21{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box8{
+    background-image: url('main/machu picchu.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 10vw; 
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box8:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec7{
+    margin-top: -20vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para7{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p22 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p23{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p24{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box9{
+    background-image: url('main/Iron pillar.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box9:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec8{  
+    margin-left: 35vw;
+    margin-top: -15vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para8{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p25 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p26{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p27{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box10{
+    background-image: url('main/Brihadesvara_Temple.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 10vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box10:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec9{
+    margin-top: -20vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para9{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p28 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p29{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p30{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box11{
+    background-image: url('main/Taj_Mahal.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box11:hover{
+    filter: grayscale(0%);
+    transform: translateY(-1.5vw);
+}
+
+.sec10{  
+    margin-left: 35vw;
+    margin-top: -25vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para10{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p31 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p32{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p33{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box12{
+    background-image: url('main/christ.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 55% 45% 50% 50% / 56% 61% 39% 44%;
+    margin-bottom: 2vw; 
+    margin-top: 25vw;
+    margin-left: 10vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box12:hover{
+    filter: grayscale(0%);
+    transform: translateY(-10px);
+}
+
+.sec11{
+    margin-top: -20vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para11{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}
+
+.p34 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p35{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p36{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box13{
+    background-image: url('main/Chichen_Itza.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-bottom: 2vw; 
+    margin-top: 20vw;
+    margin-left: 50vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box13:hover{
+    filter: grayscale(0%);
+    transform: translateY(-10px);
+}
+
+.sec12{  
+    margin-left: 35vw;
+    margin-top: -20vw;
+    display: block;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para12{
+    margin-left: -40vw;
+    width: 33vw;
+    margin-top: -12vw;
+}
+
+.p37 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p38{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p39{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box14{
+    background-image: url('main/Colosseo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+    height: 45vh; 
+    border-radius: 55% 45% 50% 50% / 56% 61% 39% 44%;
+    margin-bottom: 2vw; 
+    margin-top: 25vw;
+    margin-left: 10vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.box14:hover{
+    filter: grayscale(0%);
+    transform: translateY(-10px);
+}
+
+.sec13{
+    margin-top: -18vw;
+    display: block;
+    margin-left: -2vw;
+    width: 0.01vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.para13{
+    margin-left: 36vw;
+    width: 35vw;
+    margin-top: -25vh;
+}    
+
+.p40 a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.p41{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.p42{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    
+    nav{
+        padding: 2vw;
+    }
+    
+    .b1 img{
+        width: 5vw;
+    }
+    
+    .p{
+        margin-top: -5vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+    }
+    
+    .navbar{
+        margin-right: 3vw;
+    }
+    
+    nav ul li a{
+        margin-right: 3vw;
+        font-size: 3vw;
+        color: black;
+        transition: none;
+        position: relative;
+    }
+    
+    .p1{
+        padding: 1.5vw;
+        font-size: 3vw;
+        transition: none;
+        cursor: pointer;
+    }
+    
+    .cards{
+        padding: 1vw;
+        width: 100vw;
+        height: 28vh;
+    }
+    
+    .p2{
+        color: white;
+        font-size: 5vw;
+        margin-top: 12vw;
+    }
+    
+    .card1{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M1.jpg');
+        width: 50vw;
+        height: 25vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card2{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M2.jpg');
+        width: 50vw;
+        height: 25vh;  
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card3{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M3.jpg');
+        width: 50vw;
+        height: 25vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card4{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M4.jpg');
+        width: 50vw;
+        height: 25vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card5{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M5.jpg');
+        width: 50vw;
+        height: 25vh; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .card6{
+        margin-top: 2vw;
+        margin-left: 2vw;
+        background-image: url('main/M6.jpg');
+        width: 50vw;
+        height: 25vh;  
+        background-size: cover;
+        background-position: center;
+        border-radius: 2vw;
+    }
+    
+    .container{
+        overflow: hidden;
+        white-space: nowrap;
+    }
+      
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        display: inline-block;
+        cursor: pointer;
+        animation: moveRight 15s linear infinite;
+    }
+      
+    @keyframes moveRight {
+    0% {
+      transform: translateX(280%);
+    }
+    100% {
+      transform: translateX(-750%);
+    }
+    }
+    
+    .p3{
+        font-size: 8vw;
+        font-weight: 900;
+        padding: 1.5vw;
+    }
+    
+    .section{
+        width: 80vw;
+        margin-top: -1.5vw;
+        height: 0.01vw;
+        margin-left: 1.7vw;
+        background-color: black; 
+    }
+    
+    .box2{
+        background-image: url('main/cave.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 5vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box2:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec1{
+        display: none;
+    }
+    
+    .para1{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p4 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p5{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p6{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box3{
+        background-image: url('main/pyramids.webp');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 100vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box3:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec2{  
+        margin-left: 35vw;
+        margin-top: -15vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para2{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p7 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p8{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p9{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box4{
+        background-image: url('main/forbidden city.webp');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 100vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box4:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec3{
+        margin-top: -15vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para3{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p10 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p11{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p12{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box5{
+        background-image: url('main/kailash.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 100vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box5:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec4{  
+        margin-left: 35vw;
+        margin-top: -15vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para4{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p13 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p14{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p15{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box6{
+        background-image: url('main/great wall of china.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 100vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box6:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec5{
+        margin-top: -20vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para5{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p16 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p17{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p18{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box7{
+        background-image: url('main/petra.jpeg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 120vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box7:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec6{  
+        margin-left: 35vw;
+        margin-top: -15vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para6{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p19 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p20{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p21{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box8{
+        background-image: url('main/machu picchu.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box8:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec7{
+        margin-top: -20vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para7{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p22 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p23{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p24{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box9{
+        background-image: url('main/Iron pillar.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box9:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec8{  
+        margin-left: 35vw;
+        margin-top: -15vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para8{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p25 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p26{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p27{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box10{
+        background-image: url('main/Brihadesvara_Temple.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box10:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec9{
+        margin-top: -20vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para9{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p28 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p29{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p30{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box11{
+        background-image: url('main/Taj_Mahal.jpeg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box11:hover{
+        filter: grayscale(0%);
+        transform: translateY(-1.5vw);
+    }
+    
+    .sec10{  
+        margin-left: 35vw;
+        margin-top: -25vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para10{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p31 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p32{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p33{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box12{
+        background-image: url('main/christ.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box12:hover{
+        filter: grayscale(0%);
+        transform: translateY(-10px);
+    }
+    
+    .sec11{
+        margin-top: -20vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para11{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p34 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p35{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p36{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box13{
+        background-image: url('main/Chichen_Itza.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    .box13:hover{
+        filter: grayscale(0%);
+        transform: translateY(-10px);
+    }
+    
+    .sec12{  
+        margin-left: 35vw;
+        margin-top: -20vw;
+        display: none;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para12{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }
+    
+    .p37 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p38{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p39{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .box14{
+        background-image: url('main/Colosseo.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 70vw;
+        height: 30vh; 
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        margin-bottom: 2vw; 
+        margin-top: 130vw;
+        margin-left: 20vw; 
+        transition: none;
+        cursor: pointer;
+        filter: grayscale(0%);
+        position: relative;
+    }
+    
+    
+    .box14:hover{
+        filter: grayscale(0%);
+        transform: translateY(-10px);
+    }
+    
+    .sec13{
+        margin-top: -18vw;
+        display: none;
+        margin-left: -2vw;
+        width: 0.01vw;
+        height: 30vh;
+        background-color: black;
+    }
+    
+    .para13{
+        position: absolute;
+        margin-left: 1vw;
+        width: 70vw;
+        margin-top: 65vw;
+    }    
+    
+    .p40 a{
+        color: black;
+        text-decoration: none;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+    
+    .p41{
+        font-size: 8vw;
+        font-weight: 600;
+    }
+    
+    .p42{
+        margin-top: 1vw;
+        font-size: 5vw;
+        font-weight: 500;
+        padding-bottom: 5vw
+    }
+}
